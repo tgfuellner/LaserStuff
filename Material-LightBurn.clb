@@ -126,7 +126,7 @@
             </CutSetting>
         </Entry>
         <Entry Thickness="-1.0000" Desc="Engraving Sperrholz">
-            <CutSetting type="Scan">
+            <CutSetting type="Scan+Cut">
                 <index Value="0"/>
                 <name Value=""/>
                 <minPower Value="20"/>
@@ -158,7 +158,7 @@
                 <overcut Value="0"/>
                 <rampLength Value="0"/>
                 <rampOuter Value="0"/>
-                <numPasses Value="1"/>
+                <numPasses Value="2"/>
                 <zPerPass Value="0"/>
                 <perforate Value="0"/>
                 <perfLen Value="0.1"/>
@@ -181,9 +181,40 @@
                 <overscanPercent Value="2.5"/>
                 <floodFill Value="0"/>
                 <interval Value="0.12"/>
-                <angle Value="0"/>
+                <angle Value="180"/>
                 <cellsPerInch Value="50"/>
                 <halftoneAngle Value="22.5"/>
+                <post_minPower Value="20"/>
+                <post_maxPower Value="50"/>
+                <post_minPower2 Value="20"/>
+                <post_maxPower2 Value="20"/>
+                <post_speed Value="16.6667"/>
+                <post_kerf Value="0"/>
+                <post_zOffset Value="0"/>
+                <post_enableLaser1 Value="1"/>
+                <post_enableLaser2 Value="0"/>
+                <post_numPasses Value="1"/>
+                <post_zPerPass Value="0"/>
+                <post_startDelay Value="0"/>
+                <post_endDelay Value="0"/>
+                <post_throughPower Value="0"/>
+                <post_throughPower2 Value="0"/>
+                <post_enableCutThroughStart Value="0"/>
+                <post_enableCutThroughEnd Value="0"/>
+                <post_perforate Value="0"/>
+                <post_perfLen Value="0"/>
+                <post_perfSkip Value="0"/>
+                <post_tabsEnabled Value="0"/>
+                <post_manualTabs Value="1"/>
+                <post_tabSize Value="0.5"/>
+                <post_tabCount Value="-1"/>
+                <post_tabSpacing Value="50"/>
+                <post_skipInnerTabs Value="0"/>
+                <post_tabsUseSpacing Value="0"/>
+                <post_tabCutPower Value="0"/>
+                <post_dotMode Value="0"/>
+                <post_dotTime Value="0"/>
+                <post_dotSpacing Value="0"/>
             </CutSetting>
         </Entry>
     </Material>
